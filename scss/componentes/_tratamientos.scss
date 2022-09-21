@@ -1,0 +1,131 @@
+/*TRATAMIENTOS*/
+.article_tratamientos{
+    padding: 20px;
+}
+
+.protesis{
+    display: flex;
+    border-bottom: black 2px solid;
+    background-color: white;
+    height: 300px;
+    img{
+        width: 400px;
+        padding: 3px 10px;
+        border-radius: 40px;
+        div{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+}
+
+.blanqueamiento{
+    display: flex;
+    border-bottom: black 2px solid;
+    background-color: #55C5D2;
+    height: 300px;
+    img{
+        width: 400px;
+        padding: 3px 10px;
+        border-radius: 40px;
+        div{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: end;
+
+        }
+    }
+}
+
+.ortodoncia{
+    display: flex;
+    border-bottom: black 2px solid;
+    background-color: white;
+    height: 300px;
+    img{
+        width: 400px;
+        padding: 3px 10px;
+        border-radius: 40px;
+        div{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+    }
+}
+
+.limpieza{
+    display: flex;
+    border-bottom: black 2px solid;
+    background-color: #55C5D2;
+    height: 300px;
+    img{
+        width: 400px;
+        padding: 3px 10px;
+        border-radius: 40px;
+        div{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: end;
+
+        }
+    }
+}
+
+.conducto{
+    display: flex;
+    border-bottom: black 2px solid;
+    background-color: white;
+    height: 300px;
+    img{
+        width: 300px;
+        padding: 3px 10px;
+        border-radius: 40px;
+        div{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+    }
+}
+
+.extracciones{
+    display: flex;
+    border-bottom: black 2px solid;
+    background-color: #55C5D2;
+    height: 300px;
+    img{
+        width: 400px;
+        padding: 3px 10px;
+        border-radius: 40px;
+        div{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: end;
+
+        }
+    }
+}
+
+.implante{
+    display: flex;
+    background-color: white;
+    height: 300px;
+    img{
+        width: 400px;
+        padding: 3px 10px;
+        border-radius: 40px;
+        div{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+    }
+}

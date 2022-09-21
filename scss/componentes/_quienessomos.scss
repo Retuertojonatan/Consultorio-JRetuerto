@@ -1,0 +1,20 @@
+/*QUIENES SOMOS*/
+
+.somos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    h1{
+        text-align:end; 
+    }
+}
+
+.somos p{
+    text-align: center;
+    margin: 100px;
+}
+
+.somos h2{
+    text-align:start;
+    padding: 130px;
+}
