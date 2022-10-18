@@ -256,7 +256,7 @@ form {
 
 /*MEDIDA CELULAR*/
 
-@media only screen and (max-width: 568px){
+@media only screen and (max-width: 375px){
 
     /*INDEX*/
     
@@ -311,6 +311,11 @@ form {
     .somos h1{
         text-align: center;
     }
+
+  .imgconsul img{
+    width: 375px;
+    height: 300px;
+  }
     
     
     /*FOOTER*/
