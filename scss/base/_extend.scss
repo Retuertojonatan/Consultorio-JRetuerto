@@ -1,0 +1,35 @@
+%disposicion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.protesis img div{
+    @extend %disposicion;
+}
+
+.blanqueamiento img div{
+    @extend %disposicion;
+}
+
+.ortodoncia img div{
+    @extend %disposicion;
+}
+
+.limpieza img div{
+    @extend %disposicion;
+    text-align: end;
+}
+
+.conducto img div{
+    @extend %disposicion;
+}
+
+.extracciones img div{
+    @extend %disposicion;
+    text-align: end;
+}
+
+.implante img div{
+    @extend %disposicion;
+}

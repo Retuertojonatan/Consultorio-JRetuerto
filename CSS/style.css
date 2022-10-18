@@ -254,9 +254,9 @@ form {
 
 /*MEDIA QUERIES*/
 
+/*MEDIDA CELULAR*/
 
-
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 568px){
 
     /*INDEX*/
     
@@ -266,30 +266,36 @@ form {
     }
     
     header img{
-        width: 576px;
-        height: 175px;
+        width: 375px;
+        height: 135px;
+    }
+
+    .tratamientos{
+      display: block;
     }
     
     .tratamientos img{
-        width: 300px;
-        height: 250px;
+        width: 0px;
+        height: 0px;
     }   
-    
-    table{
-        padding: 0px;
+
+    .parrafos {
+      text-align: center;
     }
-    
+
     .banner p{
-        padding: 0px;
-    }
+      padding: 0px;
+  }
+  
+  .parrafos p{
+      margin-inline: 0px;
+  }
+
+  .tabla table tr td {
+    padding: 10px;
+    font-size: 10px;
+  }
     
-    .parrafos p{
-        margin-inline: 0px;
-    }
-    
-    .tabla th, td{
-        padding: 0px;
-    }
     
     /*QUIENES SOMOS*/
     
@@ -310,9 +316,18 @@ form {
     /*FOOTER*/
     
     footer .iconos a{
-        margin: 0px;
-        padding: 0px;
-    }
+        margin: 5px;
+        padding: 5px;
+     }
+
+     footer{
+      justify-content: space-evenly;
+     }
+     
+
+     footer .mapa p{
+      font-size: 10px;
+     }
     
     
     /*TRATAMIENTOS*/
