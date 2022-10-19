@@ -42,11 +42,22 @@
     <h1>FORMULARIO DE CONTACTO</h1>
     <P>Completá el formulario</P>
 
-    <label>Nombre y Apellido:    <input type="text" placeholder="Nombre y Apellido" required></label> <br>
-    <label>Edad                  <input type="number" min="0" max="100" placeholder="Edad" required></label> <br>
-    <label>Correo Electrónico<input type="email" placeholder="Correo electrónico" required></label>
-    <label>Detalle su consulta</label>
-    <textarea cols="30" rows="10" required></textarea>
+    <div class="mb-3">
+      <label for="formGroupExampleInput" class="form-label">Nombre y Apellido</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre y Apellido" required>
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput2" class="form-label">Edad</label>
+      <input type="number" min="0" max="100" class="form-control" id="formGroupExampleInput2" placeholder="Edad" required>
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput3" class="form-label">Correo Electronico</label>
+      <input type="email" class="form-control" id="formGroupExampleInput" placeholder="correo electronico" required>
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Detalle su consulta</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
     <button onclick="alert('Su consulta ya fue enviada, muchas gracias')">Enviar</button>
 
 
