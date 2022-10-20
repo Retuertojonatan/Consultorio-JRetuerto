@@ -272,31 +272,13 @@ form {
     }
 
     nav{
-      display: block;
+      justify-content: center;
     }
   
     .tratamientos img{
-        width: 250px;
-        height: 250px;
-    }   
-  
-    .parrafos {
-      text-align: center;
-    }
-  
-    .banner p{
-      padding: 0px;
-  }
-  
-  .parrafos p{
-      margin-inline: 0px;
-  }
-  
-  .tabla table tr td {
-    padding: 10px;
-    font-size: 10px;
-  }
-    
+      height: 300px;
+      margin: auto;
+    }  
     
     /*QUIENES SOMOS*/
     
@@ -305,120 +287,64 @@ form {
     }
     
     .somos{
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(4, 1fr);
-      max-height: 1600px;
-  }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      }
   
-  .somos h2{
-    width: 768px;
-  }
-    
-  .imgconsul1 img{
-    width: 768px;
-    height: 300px;
-  }
-  
-  .imgconsul2 img{
-    width: 768px;
-    height: 300px;
-  }
+    .imgconsul1{
+       text-align: center;
+       margin: 20px;
+       }
+        
+     .imgconsul2{
+       text-align: center;
+       margin: 20px;
+       }
+        
+     .somos h2{
+       text-align: center;
+       padding: 40px;
+       }
     
     
     /*FOOTER*/
     
-    footer .iconos a{
-        margin: 5px;
-        padding: 5px;
-     }
-  
-     footer{
-      justify-content: space-evenly;
-     }
-     
-  
-     footer .mapa p{
-      font-size: 10px;
-     }
-    
     
     /*TRATAMIENTOS*/
     
-    .protesis{
-        height: 550px;
-        flex-direction: column-reverse;
-    }
+    .protesis div p{
+      font-size: 14px;
+  }
   
-    .protesis img{
-      width: 375px;
-    }
-    
-    .blanqueamiento{
-        height: 400px;
-        flex-direction: column;
-    }
-    
-    .blanqueamiento div{
-        text-align: start;
-    }
+    .blanqueamiento div p{
+      font-size: 14px;
+  }
   
-    .blanqueamiento img{
-      width: 375px;
-    }
-    
-    .ortodoncia{
-        height: 560px;
-        flex-direction: column-reverse;
-    }
+  .ortodoncia div p{
+    font-size: 14px;
+  }
   
-    .ortodoncia img{
-      width: 375px;
-    }
-    
-    .limpieza{
-        height: 550px;
-        flex-direction: column;
-    }
-    
-    .limpieza div{
-        text-align: start;
-    }
+  .limpieza div p{
+    font-size: 14px;
+  }
   
-    .limpieza img{
-      width: 375px;
-    }
-    
-    .conducto{
-        height: 700px;
-        flex-direction: column-reverse;
-    }
+  .conducto div p{
+    font-size: 14px;
+  }
   
-    .conducto img{
-      width: 375px;
-    }
-    
-    .extracciones{
-        height: 430px;
-        flex-direction: column;
-    }
-    
-    .extracciones div{
-        text-align: start;
-    }
+  .extracciones div p{
+    font-size: 14px;
+  }
   
-    .extracciones img{
-      width: 375px;
-    }
+  .implante{
+    height: 400px;
+  }
+  
+  .implante div p{
+    font-size: 14px;
+  }
     
-    .implante{
-        height: 750px;
-        flex-direction: column-reverse;
-    }
-  
-    .implante img{
-      width: 375px;
-    }
-  
     /*NOVEDADES*/
   
     .carusel{
@@ -445,181 +371,181 @@ form {
   /*INDEX*/
   
   header{
-      display: flex;
-      flex-direction: column;
-      font-size: 11px;
-  }
-  
-  header img{
-      width: 375px;
-      height: 135px;
-  }
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+}
 
-  .tratamientos{
-    display: block;
-  }
-  
-  .tratamientos img{
-      width: 0px;
-      height: 0px;
-  }   
+header img{
+    width: 375px;
+    height: 135px;
+}
 
-  .parrafos {
-    text-align: center;
-  }
+.tratamientos{
+  display: block;
+}
 
-  .banner p{
-    padding: 0px;
+.tratamientos img{
+    width: 0px;
+    height: 0px;
+}   
+
+.parrafos {
+  text-align: center;
+}
+
+.banner p{
+  padding: 0px;
 }
 
 .parrafos p{
-    margin-inline: 0px;
+  margin-inline: 0px;
 }
 
 .tabla table tr td {
-  padding: 10px;
-  font-size: 10px;
+padding: 10px;
+font-size: 10px;
 }
-  
-  
-  /*QUIENES SOMOS*/
-  
-  .h1somos{
-      text-align: center;
-  }
-  
-  .somos{
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    max-height: 1600px;
+
+
+/*QUIENES SOMOS*/
+
+.h1somos{
+    text-align: center;
+}
+
+.somos{
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  max-height: 1600px;
 }
 
 .somos h2{
-  width: 375px;
+width: 375px;
 }
-  
+
 .imgconsul1 img{
-  width: 375px;
-  height: 300px;
+width: 350px;
+height: 300px;
 }
 
 .imgconsul2 img{
-  width: 375px;
-  height: 300px;
+width: 350px;
+height: 300px;
 }
-  
-  
-  /*FOOTER*/
-  
-  footer .iconos a{
-      margin: 5px;
-      padding: 5px;
-   }
 
-   footer{
-    justify-content: space-evenly;
-   }
-   
 
-   footer .mapa p{
-    font-size: 10px;
-   }
-  
-  
-  /*TRATAMIENTOS*/
-  
-  .protesis{
-      height: 550px;
-      flex-direction: column-reverse;
-  }
+/*FOOTER*/
 
-  .protesis img{
-    width: 375px;
-  }
-  
-  .blanqueamiento{
-      height: 400px;
-      flex-direction: column;
-  }
-  
-  .blanqueamiento div{
-      text-align: start;
-  }
+footer .iconos a{
+    margin: 5px;
+    padding: 5px;
+ }
 
-  .blanqueamiento img{
-    width: 375px;
-  }
-  
-  .ortodoncia{
-      height: 560px;
-      flex-direction: column-reverse;
-  }
+ footer{
+  justify-content: space-evenly;
+ }
+ 
 
-  .ortodoncia img{
-    width: 375px;
-  }
-  
-  .limpieza{
-      height: 550px;
-      flex-direction: column;
-  }
-  
-  .limpieza div{
-      text-align: start;
-  }
+ footer .mapa p{
+  font-size: 10px;
+ }
 
-  .limpieza img{
-    width: 375px;
-  }
-  
-  .conducto{
-      height: 700px;
-      flex-direction: column-reverse;
-  }
 
-  .conducto img{
-    width: 375px;
-  }
-  
-  .extracciones{
-      height: 430px;
-      flex-direction: column;
-  }
-  
-  .extracciones div{
-      text-align: start;
-  }
+/*TRATAMIENTOS*/
 
-  .extracciones img{
-    width: 375px;
-  }
-  
-  .implante{
-      height: 750px;
-      flex-direction: column-reverse;
-  }
+.protesis{
+    height: 450px;
+    flex-direction: column-reverse;
+}
 
-  .implante img{
-    width: 375px;
-  }
+.protesis img{
+  width: 375px;
+}
 
-  /*NOVEDADES*/
+.blanqueamiento{
+    height: 350px;
+    flex-direction: column;
+}
 
-  .carusel{
-    height: 430px;
-    display: flex;
-    align-items: center;
-  }
+.blanqueamiento div{
+    text-align: start;
+}
 
-  .carousel-item img{
-    width: 375px;
-  }
+.blanqueamiento img{
+  width: 375px;
+}
 
-  /*FORMULARIO*/
+.ortodoncia{
+    height: 500px;
+    flex-direction: column-reverse;
+}
 
-  form{
-    max-width: 370px;
-  }
-}  
+.ortodoncia img{
+  width: 375px;
+}
+
+.limpieza{
+    height: 450px;
+    flex-direction: column;
+}
+
+.limpieza div{
+    text-align: start;
+}
+
+.limpieza img{
+  width: 375px;
+}
+
+.conducto{
+    height: 650px;
+    flex-direction: column-reverse;
+}
+
+.conducto img{
+  width: 375px;
+}
+
+.extracciones{
+    height: 390px;
+    flex-direction: column;
+}
+
+.extracciones div{
+    text-align: start;
+}
+
+.extracciones img{
+  width: 375px;
+}
+
+.implante{
+    height: 650px;
+    flex-direction: column-reverse;
+}
+
+.implante img{
+  width: 375px;
+}
+
+/*NOVEDADES*/
+
+.carusel{
+  height: 430px;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-item img{
+  width: 375px;
+}
+
+/*FORMULARIO*/
+
+form{
+  max-width: 370px;
+}
+}
 
 /*# sourceMappingURL=style.css.map */}
